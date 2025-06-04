@@ -17,7 +17,8 @@
 #     print(n)
 #     n = n+1 
 
-x = 4
+x = input("Enter a number to find its factorial: ")
+x = int(x)  # Convert input to integer
 i = 1
 factorial = 1
 while i <= x:
