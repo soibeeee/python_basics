@@ -1,2 +1,2 @@
-# python_basics
-Repo for python learning
+Python 101
+FROM MIT YOUTUBE 
