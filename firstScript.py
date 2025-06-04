@@ -66,3 +66,11 @@
 # for i in range (10):
 #     mysum += i
 # print("Sum of first 10 numbers is", mysum)
+
+mysum = 0
+start = 3
+end = 5
+
+for i in range (start, end + 1): #start, stop
+    mysum += i
+print("Sum of numbers from", start, "to", end, "is", mysum)
