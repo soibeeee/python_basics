@@ -259,3 +259,19 @@
 # bubble_sort(numbers)
 # print("Sorted List:", numbers)
 
+# def two_sum(nums, target):
+#     num_map = {}
+#     for i, num in enumerate(nums):
+#         complement = target - num
+#         if complement in num_map:
+#             return [num_map[complement], i]
+#         num_map[num] = i
+#     return None 
+
+# # Example usage
+# ints = input("Enter numbers separated by spaces: ").split()
+# ints = [int(num) for num in ints]  # Convert input strings to integers
+# target = int(input("Enter the target sum: "))
+# result = two_sum(ints, target)      
+# print(result if result else "No two numbers found that add up to the target.")
+
