@@ -275,3 +275,92 @@
 # result = two_sum(ints, target)      
 # print(result if result else "No two numbers found that add up to the target.")
 
+
+
+# def two_sums( nums, target):
+#     prev_map = {}
+#     for i , n in enumerate(nums):
+#         num = target - n
+#         if num in prev_map:
+#             return [prev_map[num] , i ]
+#             prev_map[n] = i
+#     return 
+
+
+# nums = input("Enter numbers separated by spaces: ").split()
+# nums = [int(num) for num in nums]  # Convert input strings to integers
+# target = int(input("Enter the target sum: "))
+# result = two_sums(nums, target)
+# print(result if result else "No two numbers found that add up to the target.")
+
+
+
+# class Solution(object):
+#     def two_sums(aelf, nums, target):
+#         prev_map = {}
+#         for i, n in enumerate(nums):
+#             complement = target - n
+#             if complement in prev_map:
+#                 return [prev_map[complement], i]
+#             prev_map[n] = i
+#         return None
+
+#     # def twoSum(self, nums, target):
+#     #     num_map = {}  
+#     #     for i, num in enumerate(nums):
+#     #         complement = target - num
+#     #         if complement in num_map:
+#     #             return [num_map[complement], i]  
+#     #         num_map[num] = i  
+#     #     return None  
+# solution = Solution()
+# nums = [3, 8, 12, 15]  
+# target = 11
+# print(solution.two_sums(nums, target))  # Expected Output: [1, 3]
+# def two_sum(self , nums , target):
+#     hash_map = {}
+#     for i , num in enumerate(nums):
+#         substract = target - num
+#         if substract in hash_map:
+#             return [hash_map[substract], i]
+#         hash_map[num] = i
+#     return None 
+
+# def maxProfit(prices):
+#     min_price = prices[0]
+#     max_profit = 0 
+#     profit = 0
+
+#     for price in prices:
+#         if price < min_price:
+#             min_price = price
+#         else:
+#             profit = price - min_price 
+#             if profit > max_profit:
+#                 max_profit = profit
+#     return max_profit
+    
+# # Example usage
+# inputs = input("Enter stock prices separated by spaces: ").split()
+# prices = [int(price) for price in inputs]  # Convert input strings to integers
+# print("Maximum profit:", maxProfit(prices))  # Expected Output: 5 (Buy at 1, Sell at 6)     ``
+
+# tuple = (1, 2, 3, 4, 5) 
+# list  = [1, 2, 3, 4, 5]
+# disc = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}   
+
+
+
+# import numpy  as np;
+# import pandas as pd;
+# import matplotlib.pyplot as plt;
+
+# # name = pd.DataFrame({
+# #     "Name": ["Shibam", "jyoti", "ram"],
+# #     "Age": [20, 21, 22],
+# #     "City": ["Kolkata", "Delhi", "Mumbai"]
+# # })
+
+# x=  np.linspace(0, 10, 100)
+# y = x 
+# plt.plot(x,y)
