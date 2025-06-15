@@ -364,3 +364,23 @@
 # x=  np.linspace(0, 10, 100)
 # y = x 
 # plt.plot(x,y)
+
+# s = input("enter a char :")
+# seen = set()
+# for char in s:
+#     seen.add(char)
+# print(len(seen))
+
+#find the largest value from an array : 
+
+# value = input("Enter some value with space :").split()
+# large_num = int(value[0])
+
+# for num in value [1:] :
+#     n = int(num)
+#     if n > large_num:
+#         large_num = n 
+# print("The biggest number is:", large_num)
+ 
+    
+
