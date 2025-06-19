@@ -382,5 +382,77 @@
 #         large_num = n 
 # print("The biggest number is:", large_num)
  
-    
+
+
+# arr = input(" Arry ").split()
+# arr2 = []
+# n = 0
+# for i in arr:
+#    if  int(i) % 2 == 0: 
+#     arr2.append(i)
+# print (arr2)
+
+
+
+# arr = input(" Arry ").split()
+# arr2 = []
+# arr = 
+# for i in arr:
+#     if i in arr:
+        
+# color_list = ["Red" , "green" , "white" , "Black"]
+# print(color_list[0] ,color_list[-1])
+
+# exam_st_date = [11, 12, 2014]
+# date_str = ""
+# for i in exam_st_date:
+#     date_str += str(i) + " / "
+# # Remove the last " / "
+# date_str = date_str.rstrip(" / ")
+
+# print("The examination will start from:", date_str)
+
+# 5 + 55 + 555 = 615
+
+# number = input(int)
+
+# a = int(input("Input an integer: "))
+
+# n1 = int("%s" % a)           
+# n2 = int("%s%s" % (a, a))    
+# n3 = int("%s%s%s" % (a, a, a)) 
+
+# print (n1 + n2 + n3 )
+
+# Import the 'date' class from the 'datetime' module
+from datetime import datetime
+
+# Get user input for start and end dates
+# start_date_str = input("Enter the start date (YYYY-MM-DD): ")
+# end_date_str = input("Enter the end date (YYYY-MM-DD): ")
+
+# # Convert strings to date objects
+# start_date = datetime.strptime(start_date_str, "%Y-%m-%d").date()
+# end_date = datetime.strptime(end_date_str, "%Y-%m-%d").date()
+
+# # Calculate the difference
+# delta = end_date - start_date
+
+# # Print the number of days
+# print(f"Number of days between the two dates: {delta.days}")
+
+# from datetime import date
+# # Define a start date as July 2, 2014
+# f_date = date(2014, 7, 2)
+# # Define an end date as July 11, 2014
+# l_date = date(2014, 7, 11)
+# # Calculate the difference between the end date and start date
+# delta = l_date - f_date
+# # Print the number of days in the time difference
+# # print(delta.days)
+# redius = float(input("enter redious"))
+# pi = 3.14
+
+# calculate_vol = 4/3 *pi*(redius)**3
+# print(calculate_vol)
 
