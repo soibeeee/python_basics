@@ -424,8 +424,8 @@
 
 # print (n1 + n2 + n3 )
 
-# Import the 'date' class from the 'datetime' module
-from datetime import datetime
+# # Import the 'date' class from the 'datetime' module
+# from datetime import datetime
 
 # Get user input for start and end dates
 # start_date_str = input("Enter the start date (YYYY-MM-DD): ")
@@ -456,3 +456,34 @@ from datetime import datetime
 # calculate_vol = 4/3 *pi*(redius)**3
 # print(calculate_vol)
 
+# even_num = 0
+# for i in range(10):
+#     if i%2 == 0:
+#         even_num += 1
+# print(even_num)
+
+# s = "demo loops - fruit loops"
+# for ind in range(len(s)):
+#     if s[ind] == "i" or s[ind] == 'u':
+#         print("There is an u and I")
+
+
+# s = "gnosrgningiosangpisagpi"
+# unique = ""
+
+# for char in s :
+#     if char not in unique:
+#         unique = unique + char
+# print (len(unique))
+       
+# guess = 0
+# net_flag = False
+# x = int(input("Enter an Integer: "))
+# if x < 0 :
+#     net_flag = True
+# while guess ** 2 < x:
+#     guess = guess + 1
+# if guess ** 2 == x:
+#     print("Square Root of", x, "is", guess)
+# else:
+#     print(x, "is not a perfect square")
