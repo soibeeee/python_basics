@@ -487,3 +487,49 @@
 #     print("Square Root of", x, "is", guess)
 # else:
 #     print(x, "is not a perfect square")
+# import time, sys
+# indent = 0  # How many spaces to indent
+# indent_increasing = True  # Whether the indentation is increasing or not
+
+# try:
+#     while True:  # The main program loop
+#         print(' ' * indent, end='')
+#         print('********')
+#         time.sleep(0.1) # Pause for 1/10th of a second.
+
+#         if indent_increasing
+#             # Increase the number of spaces:
+#             indent = indent + 1
+#             if indent == 20:
+#                 # Change direction:
+#                 indent_increasing = False
+#         else:
+#             # Decrease the number of spaces:
+#             indent = indent - 1
+#             if indent == 0:
+#                 # Change direction:
+#                 indent_increasing = True
+# except KeyboardInterrupt:
+#     sys.exit()
+
+# def EvenOdd(n):
+#     if n % 2 == 0:
+#         print("Even")
+#     else:
+#         print("odd")
+
+# n = int(input("enter a number"))
+# EvenOdd(n)
+# number = int(input("Enter a number: "))
+# if number <= 1 :
+#     print("Not a Prime number")
+# else:
+#     isPrime = True
+#     for i in range ( 2 , int(number ** 0.5) +1):
+#         if number % i == 0:
+#             isPrime = False
+#             break
+# if isPrime == True:
+#     print("Prime Number")
+# else:
+#     print("Not a prime Number")
